@@ -8,13 +8,22 @@
     padding: 0;
     box-sizing: border-box;
   }
-  
+
 .container {
     display: flex;
 }
 .background {
     width: 500px;
     height: 1000px;
+}
+.layer{
+    background-color: black;
+    opacity: 20%;
+    padding: 100px;
+    width: 500px;
+    position: absolute;
+    top: 190px;
+    z-index: 1;
 }
 .logo {
     font-family: Norse;
@@ -25,6 +34,7 @@
     align-items: center;
     font-size: 6rem;
     justify-content: space-between;
+    z-index: 2;
     
 }
 .odin {
